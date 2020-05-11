@@ -33,7 +33,7 @@ Badge.seed(:name) do |badge|
   badge.query = helpdesk_query
   badge.listable = true
   badge.target_posts = true
-  badge.enabled = false
+  badge.enabled = true
   badge.trigger = Badge::Trigger::PostRevision
   badge.auto_revoke = true
   badge.show_posts = true
